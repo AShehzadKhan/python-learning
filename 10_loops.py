@@ -221,3 +221,10 @@ for i in range(0,101):
 print("even sum : ",even_sum)
 print("odd sum : ",odd_sum)
 
+# +++++++++ Multiplication table of N +++++++++++++++
+
+count = 1
+n = int(input("Enter any number : "))
+while count <= 10:
+    print(n ,"*", count ,"=", n * count)
+    count += 1
